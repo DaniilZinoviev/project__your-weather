@@ -1,0 +1,24 @@
+{
+  "name": "Your-weather",
+  "version": "1.0.0",
+  "description": "This app just show you weather on your city and temperature.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniilZinovyev/Your-weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaniilZinovyev/Your-weather/issues"
+  },
+  "homepage": "https://github.com/DaniilZinovyev/Your-weather#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
