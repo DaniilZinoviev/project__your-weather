@@ -11,6 +11,42 @@
 </head>
 <body>
     
+    <main class="weather">
+        <h3>Weather App</h3>
+        <div class="weather-info">
+            <div class="weather-left">
+                <div class="weather-tempre">
+                    <span id="temperature">35</span>&deg;C
+                </div>
+            </div>
+            <div class="weather-right">
+                <div class="weather-icon">
+                    <img src="img/300.png" height="50px">
+                </div>
+                <hr>
+                <div class="weather-humidity">
+                    <img src="/img/water-drop.png" height="18px"> <span id="humidity">70</span>%
+                </div>
+                <div class="weather-wind">
+                    <img src="/img/wind.png" height="18px"> <span id="wind">1</span> mph <span id="wind-direction">N</span>
+                </div>
+            </div>
+            
+        </div>
+        <ul class="user-info">
+            <li class="user-city">City</li>
+            <li class="user-country">Country</li>
+            <li class="user-flag">
+                <img src="">
+            </li>
+        </ul>
+        <div class="description">
+            This app shows weather on place where you are or by your choise, if it could not get your geolocation. 
+        </div>
+
+    </main>
+
+    <!-- Scripts-->
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
